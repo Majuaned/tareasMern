@@ -50,7 +50,7 @@ function App() {
       const respPeti = await peticion.json()
       console.log(respPeti)
 
-      //setTarea({designado: '', descripcion: ''});
+      //setTarea({designado: '', descripcion: ''})
 
     } catch (error) {
       console.log(error) 
